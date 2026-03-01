@@ -12,6 +12,12 @@ main {
     max-width: 900px;
     margin: auto;
 }
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
 section {
     padding: 80px 20px;
 }
@@ -23,4 +29,16 @@ section {
 }
 #contact {
     background-color: #1e293b;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+nav a:hover {
+    color: #38bdf8;
 }
