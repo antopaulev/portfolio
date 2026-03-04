@@ -13,10 +13,13 @@ main {
     margin: auto;
 }
 header {
+    position:fixed;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    background-color: #1e293b;
+    width:100%;
 }
 section {
     padding: 80px 20px;
