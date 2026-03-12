@@ -30,9 +30,20 @@ section {
 
 #skills {
     background-color: #1e293b;
-    /* padding:20px; */
+    text-align: center;
 }
-
+.skills-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+}
+.skill img{
+    width:50px;
+}
+.skill p {
+    margin-top: 10px;
+}
 #about {
     background-color: #1e293b;
 }
@@ -59,7 +70,4 @@ nav a:hover {
 h2,
 h3 {
     padding: 20px;
-}
-li{
-    list-style-type: none;
 }
