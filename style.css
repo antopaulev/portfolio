@@ -217,6 +217,7 @@ nav a:hover {
     font-weight: bold;
     transition: all 0.3s ease;
     margin-top: 10px;
+    text-decoration: none;
 }
 
 .btn:hover {
